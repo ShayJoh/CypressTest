@@ -110,7 +110,6 @@ describe('Assertions', () => {
       cy.wait(10000)
       cy.get('._17hY_dW7917mzr2S9Ree').click()
       cy.reload()
-      cy.get('.gif_gifImage__3dFjs').should('be.visible')
       cy.visit('https://www.giphy.com/logout')
     })
     
